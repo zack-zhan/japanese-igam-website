@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=750,user-scalable=no">
+    <link rel="shortcut icon" href="https://igam-upload.oss-ap-northeast-1.aliyuncs.com/favicon.ico" type="image/x-icon"/>
+    <title>あいグローバルアセットマネジメント株式会社</title>
+    <style>
+        @keyframes noticeAni {
+          0% {
+            opacity: 1;
+            filter:Alpha(opacity=100);
+          }
+          100% {
+            opacity: 1;
+            filter:Alpha(opacity=100);
+          }
+        }
+      .bg{
+        -webkit-animation: noticeAni 3s ease 10s infinite;
+        -moz-animation: noticeAni 3s ease 10s infinite;
+        -ms-animation: noticeAni 3s ease 10s infinite;
+        animation: noticeAni 3s ease 10s infinite;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        opacity: 0;
+        filter:Alpha(opacity=0);
+        top: 0;
+        left: 0;
+        background:rgba(51,71,156,1);
+      }
+      @font-face {
+        font-family:Meiryo;
+        src:url('./static/Meiryo.eot');
+      }
+      .box{
+        width:800px;
+        height:600px;
+        background:rgba(255,255,255,1);
+        border-radius:24px;
+        margin: 10% auto;
+      }
+      .logo{
+        display: inline-block;
+        width: 374px;
+        height: 40px;
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+      .text{
+        margin: 40px 50px;
+        line-height: 30px;
+        font-size:16px;
+        font-family:Meiryo;
+        color:rgba(28,28,28,1);
+      }
+      .img_box{
+        width: 287px;
+        height: 287px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .bow{
+        display: inline-block;
+        width: 87px;
+        height: 231px;
+      }
+    </style>
+    <script type="text/javascript">
+      function ready() {
+        document.getElementById('notice').style.display = 'none'
+      }
+      document.addEventListener("DOMContentLoaded", ready);
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <div id="notice" class="bg">
+      <div class="box">
+        <img class="logo" src="./static/notice_logo.png" alt="">
+        <div class="text">
+            あいグローバル・アセット・マネジメント株式会社のホームページを閲覧いただきまして、誠にありがとうございました。
+            <br>
+            大変ご迷惑をおかけしますが、当サイトを閲覧いただく際、JavaScriptの設定を有効にしてからご利用いただきますようお願いいたします。
+        </div>
+        <div class="img_box">
+            <img class="bow" src="./static/bow.png" alt="">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

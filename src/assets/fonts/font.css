@@ -1,0 +1,35 @@
+@font-face{
+  font-family:ShipporiMincho;
+  src:url('./ShipporiMincho-Regular.otf'),
+  url('./ShipporiMincho-Regular.eot'),
+  url('./ShipporiMincho-Regular.otf');
+}
+
+@font-face{
+  font-family:IPAeMincho;
+  src:url('./IPAeGothic/IPAeMincho.ttf'),
+  url('./IPAeGothic/IPAeMincho.ttf'),
+  url('./IPAeGothic/IPAeMincho.eot');
+}
+
+@font-face{
+  font-family:IPAeGothic;
+  src:url('./IPAeGothic/IPAeGothic.ttf'),
+  url('./IPAeGothic/IPAeGothic.ttf'),
+  url('./IPAeGothic/IPAeGothic.eot');
+}
+
+@font-face {
+  font-family:IPam;
+  src:url('./ipam.ttc'),
+  url('./ipam.ttc'),
+  url('./ipam.eot'),
+  url('./ipam.ttf');
+}
+
+@font-face {
+  font-family:Meiryo;
+  src:url('./Meiryo.otf'),
+  url('./Meiryo.otf'),
+  url('./Meiryo.eot');
+}
